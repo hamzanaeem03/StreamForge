@@ -9,19 +9,17 @@ Use this checklist to keep future sessions aligned.
 - [x] Defined learning roadmap.
 - [x] Defined initial architecture direction.
 - [x] Recorded initial architecture decisions.
+- [x] Created .NET solution skeleton with MVC web app, domain/application/infrastructure libraries, worker, and test project.
+- [x] Added initial Docker Compose file with SQL Server and Redis.
 
 ## In Progress
 
-- [ ] Create .NET solution skeleton.
+- [ ] Add first EF Core model draft.
 
 ## Next Up
 
-- [ ] Create `src/StreamForge.Web` MVC app.
-- [ ] Create domain/application/infrastructure projects.
-- [ ] Create media worker project.
-- [ ] Create test project.
-- [ ] Add initial Docker Compose file with SQL Server and Redis.
-- [ ] Add first EF Core model draft.
+- [ ] Add initial catalog/domain entities.
+- [ ] Add EF Core persistence project setup.
 - [ ] Add seed data for catalog development.
 
 ## Later

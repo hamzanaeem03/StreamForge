@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/StreamForge.Application/StreamForge.Application.csproj" />
+    <Project Path="src/StreamForge.Domain/StreamForge.Domain.csproj" />
+    <Project Path="src/StreamForge.Infrastructure/StreamForge.Infrastructure.csproj" />
+    <Project Path="src/StreamForge.Web/StreamForge.Web.csproj" />
+    <Project Path="src/StreamForge.Worker/StreamForge.Worker.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/StreamForge.Tests/StreamForge.Tests.csproj" />
+  </Folder>
+</Solution>

@@ -6,9 +6,9 @@ The app will be built with ASP.NET Core MVC/Razor, EF Core, SQL Server, ASP.NET 
 
 ## Current Status
 
-Status: documentation foundation only.
+Status: documentation foundation plus initial .NET solution skeleton.
 
-No application code has been created yet. Future sessions should start by reading this file and `docs/LLM_HANDOFF.md`.
+Future sessions should start by reading this file and `docs/LLM_HANDOFF.md`.
 
 ## Project Goals
 
@@ -61,3 +61,21 @@ The first coding milestone will create the solution skeleton:
 - Docker Compose with SQL Server and Redis
 
 See `docs/IMPLEMENTATION_GUIDE.md` for the build order.
+
+## Local Development
+
+The solution currently uses the .NET 10 SDK and the newer `.slnx` solution format.
+
+```powershell
+dotnet restore StreamForge.slnx
+dotnet build StreamForge.slnx
+dotnet test StreamForge.slnx
+```
+
+To start local infrastructure services:
+
+```powershell
+docker compose up -d
+```
+
+The initial Compose file starts SQL Server on host port `14333` and Redis on host port `6379`.

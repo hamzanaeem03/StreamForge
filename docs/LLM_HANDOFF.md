@@ -10,7 +10,7 @@ Purpose: help the user learn .NET deeply enough to work on .NET systems professi
 
 Main app style: ASP.NET Core MVC/Razor, not React.
 
-Current status: documentation foundation only. No application code exists yet unless `docs/PROGRESS.md` says otherwise.
+Current status: documentation foundation plus initial .NET solution skeleton. Check `docs/PROGRESS.md` before assuming what exists.
 
 ## Required Reading Order
 
@@ -44,15 +44,9 @@ Current status: documentation foundation only. No application code exists yet un
 
 ## Current Build Priority
 
-The next implementation step is to create the solution skeleton:
+The next implementation step is to add the first domain model draft and EF Core persistence.
 
-- MVC web app.
-- Domain/application/infrastructure libraries.
-- Worker project.
-- Test project.
-- Docker Compose with SQL Server and Redis.
-
-After the skeleton, build catalog/domain basics before Stripe or FFmpeg.
+Build catalog/domain basics before Stripe or FFmpeg.
 
 ## Important Constraints
 
