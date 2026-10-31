@@ -12,14 +12,16 @@ Use this checklist to keep future sessions aligned.
 - [x] Created .NET solution skeleton with MVC web app, domain/application/infrastructure libraries, worker, and test project.
 - [x] Added initial Docker Compose file with SQL Server and Redis.
 
+- [x] Added LLM teaching guidance, learning resources, and `docs/LEARNING_NOTES.md`.
+
 ## In Progress
 
-- [ ] Add first EF Core model draft.
+- Nothing yet. Next session starts with the first item under Next Up.
 
 ## Next Up
 
-- [ ] Add initial catalog/domain entities.
-- [ ] Add EF Core persistence project setup.
+- [ ] Add initial catalog/domain entities (`Title`, `Genre`, `Movie`, `Series`, `Season`, `Episode`).
+- [ ] Add EF Core persistence setup (`DbContext`, SQL Server connection, first migration).
 - [ ] Add seed data for catalog development.
 
 ## Later
@@ -36,6 +38,6 @@ Use this checklist to keep future sessions aligned.
 
 ## Notes For Future Sessions
 
-- Documentation is currently the only implemented artifact.
+- Implemented so far: docs plus an empty solution skeleton (projects build, one placeholder test passes). No domain entities, database, or features exist yet.
 - Update this file after every meaningful completed task.
 - If implementation changes the plan, update the relevant docs before marking work complete.

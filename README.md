@@ -39,6 +39,7 @@ Future sessions should start by reading this file and `docs/LLM_HANDOFF.md`.
 - `docs/LLM_HANDOFF.md`: required reading and instructions for future LLM sessions.
 - `docs/DECISIONS.md`: architecture decision records.
 - `docs/PROGRESS.md`: project progress checklist.
+- `docs/LEARNING_NOTES.md`: the user's own notes, .NET 6 vs .NET 10 differences, and interview explanations.
 
 ## Documentation Rules
 
@@ -49,9 +50,9 @@ Future sessions should start by reading this file and `docs/LLM_HANDOFF.md`.
 - Update `docs/FEATURE_SPEC.md` when user-facing behavior changes.
 - Keep docs direct, specific, and readable by both humans and LLMs.
 
-## First Implementation Milestone
+## First Implementation Milestone (Done)
 
-The first coding milestone will create the solution skeleton:
+The first coding milestone created the solution skeleton:
 
 - MVC web app
 - Domain/application class library
@@ -60,7 +61,7 @@ The first coding milestone will create the solution skeleton:
 - Test project
 - Docker Compose with SQL Server and Redis
 
-See `docs/IMPLEMENTATION_GUIDE.md` for the build order.
+Next milestone: domain entities and EF Core persistence. See `docs/IMPLEMENTATION_GUIDE.md` for the build order and `docs/PROGRESS.md` for current status.
 
 ## Local Development
 

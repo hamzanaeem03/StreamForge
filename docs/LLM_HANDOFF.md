@@ -10,7 +10,7 @@ Purpose: help the user learn .NET deeply enough to work on .NET systems professi
 
 Main app style: ASP.NET Core MVC/Razor, not React.
 
-Current status: documentation foundation plus initial .NET solution skeleton. Check `docs/PROGRESS.md` before assuming what exists.
+Current status: documentation foundation plus an empty .NET solution skeleton that builds. No domain entities or features yet. Check `docs/PROGRESS.md` before assuming what exists.
 
 ## Required Reading Order
 
@@ -19,7 +19,26 @@ Current status: documentation foundation plus initial .NET solution skeleton. Ch
 3. `docs/PROJECT_BRIEF.md`
 4. `docs/ARCHITECTURE.md`
 5. `docs/IMPLEMENTATION_GUIDE.md`
-6. Relevant feature/domain docs for the task
+6. `docs/PROGRESS.md`
+7. Relevant feature/domain docs for the task
+
+## Learning Resources
+
+- Main video course: "ASP.NET CORE 6 TUTORIALS" YouTube playlist: https://www.youtube.com/playlist?list=PLp_RsiLZjwQQ7CxVhnM4G8i5veEClNPfX
+- The playlist targets .NET 6, but this repo uses .NET 10 (LTS). Concepts carry over; some syntax and templates differ.
+- When playlist code and modern .NET disagree, official Microsoft Learn docs and current `dotnet new` templates win.
+- Known differences are recorded in `docs/LEARNING_NOTES.md`. Add new ones there when you hit them.
+
+## How To Teach The User
+
+Default teaching style (the user can change this):
+
+1. Before a feature, explain the concept briefly and map it to Node/MERN where useful (for example, `DbContext` is roughly a Mongoose connection plus models; EF Core migrations are like Prisma migrate).
+2. Tell the user which playlist topic covers it, if any.
+3. Let the user write the code. Give small, specific steps, and give hints before full solutions.
+4. Review the user's code like a senior developer reviewing a PR: correctness, naming, .NET conventions, and why.
+5. Write code directly only when the user asks, or for boilerplate with no learning value. When you do, explain the non-obvious lines.
+6. After a feature, ask 2-3 interview-style questions about it and have the user add a short explanation to `docs/LEARNING_NOTES.md`.
 
 ## How To Help The User
 
